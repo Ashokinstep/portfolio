@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&display=swap');
+
+.navbar{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.btn-outline-primary{
+    
+    border: none!important;
+    color: white;
+}
+.nav-item:hover{
+cursor: pointer;
+border-bottom: 4px solid brown;
+transition: 0.5s;}
+.nav-item{
+    transition: all, ease;
+}
+.button{
+background-image:  url("./wave.png") ;
+background-size: cover;
+padding: 5px 10px;
+border-radius: 10px;
+border: none;
+
+
+}
+.button:hover{ 
+    background-image:  url("./wave.png") ;
+background-size: cover;
+    animation: y 20s linear infinite; 
+    }
+    @keyframes y {
+        0%{background-position-x: 0;}
+        100%{background-position-x: 1000px;}
+    }

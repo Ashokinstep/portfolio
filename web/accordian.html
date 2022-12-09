@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="accordian.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container ">
+        <div class="row justify-content-center">
+            <div class="col-md-6 mt-5">
+                <div class="h1">Our specialities</div>
+                <div class="accordion" id="parent">
+                    <div class="accordion-item">
+                        <div class="d-flex">
+                            <button type="button" class="ac-btn accordion-button collapsed" aria-expanded="true"
+                                data-bs-toggle="collapse" data-bs-target="#ac-coll">
+                                <img src="breakfast.png">
+                                <h4 id="ac-h1">Breakfast</h4>
+
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse" data-bs-parent="#parent" id="ac-coll"
+                            aria-labelledby="ac-h1">
+                            <div class="accordion-body">
+                                <div class="card d-flex flex-row align-items-start">
+                                    <img src="breakfast-1.jpg" class="card-img ">
+                                    <div class="card-content">
+                                        <div class=" price d-flex justify-content-between ">
+                                            <div class="card-title">Avocado</div>
+                                            <div class="card-title-p">25$</div>
+                                        </div>
+                                        <div class="card-body">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet
+                                            consectetur adipisicing elit. Hic, excepturi?</div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="card d-flex flex-row align-items-start">
+                                    <img src="breakfast-2.jpg" class="card-img ">
+                                    <div class="card-content">
+                                        <div class="price d-flex justify-content-between">
+                                            <div class="card-title">Bread-toast</div>
+                                            <div class="card-title-p">15$</div>
+                                        </div>
+                                        <div class="card-body">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet
+                                            consectetur adipisicing elit. Hic, excepturi?</div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="card d-flex flex-row align-items-start">
+                                    <img src="breakfast-3.jpg" class="card-img ">
+                                    <div class="card-content">
+                                        <div class="price d-flex justify-content-between">
+                                            <div class="card-title">Coffee</div>
+                                            <div class="card-title-p">15$</div>
+                                        </div>
+                                        <div class="card-body">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet
+                                            consectetur adipisicing elit. Hic, excepturi?</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="d-flex">
+                            <button type="button" class="ac-btn accordion-button collapsed" aria-expanded="true"
+                                data-bs-toggle="collapse" data-bs-target="#ac-coll2">
+                                <img src="lunch-time.png">
+                                <h4 id="ac-h12">Lunch</h4>
+
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse" data-bs-parent="#parent2" id="ac-coll2"
+                            aria-labelledby="ac-h12">
+                            <div class="accordion-body">
+                                <div class="card d-flex flex-row align-items-start">
+                                    <img src="lunch-1.jpg" class="card-img ">
+                                    <div class="card-content">
+                                        <div class=" price d-flex justify-content-between ">
+                                            <div class="card-title"> Veg Biryani</div>
+                                            <div class="card-title-p">250$</div>
+                                        </div>
+                                        <div class="card-body">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet
+                                            consectetur adipisicing elit. Hic, excepturi?</div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="card d-flex flex-row align-items-start">
+                                    <img src="lunch-2.jpg" class="card-img ">
+                                    <div class="card-content">
+                                        <div class="price d-flex justify-content-between">
+                                            <div class="card-title">Plain Roti</div>
+                                            <div class="card-title-p">15$</div>
+                                        </div>
+                                        <div class="card-body">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet
+                                            consectetur adipisicing elit. Hic, excepturi?</div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="card d-flex flex-row align-items-start">
+                                    <img src="lunch-3.jpg" class="card-img ">
+                                    <div class="card-content">
+                                        <div class="price d-flex justify-content-between">
+                                            <div class="card-title">Plain Rice</div>
+                                            <div class="card-title-p">15$</div>
+                                        </div>
+                                        <div class="card-body">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet
+                                            consectetur adipisicing elit. Hic, excepturi?</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="d-flex">
+                            <button type="button" class="ac-btn accordion-button collapsed" aria-expanded="true"
+                                data-bs-toggle="collapse" data-bs-target="#ac-coll3">
+
+                                <img src="christmas-dinner.png">
+                                <h4 id="ac-h13">Dinner</h4>
+
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse" data-bs-parent="#parent" id="ac-coll3"
+                            aria-labelledby="ac-h13">
+                            <div class="accordion-body">
+                                <div class="card d-flex flex-row align-items-start">
+                                    <img src="dinner-1.jpg" class="card-img ">
+                                    <div class="card-content">
+                                        <div class=" price d-flex justify-content-between ">
+                                            <div class="card-title">Naan</div>
+                                            <div class="card-title-p">25$</div>
+                                        </div>
+                                        <div class="card-body">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet
+                                            consectetur adipisicing elit. Hic, excepturi?</div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="card d-flex flex-row align-items-start">
+                                    <img src="dinner-2.jpg" class="card-img ">
+                                    <div class="card-content">
+                                        <div class="price d-flex justify-content-between">
+                                            <div class="card-title">Kabab</div>
+                                            <div class="card-title-p">150$</div>
+                                        </div>
+                                        <div class="card-body">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet
+                                            consectetur adipisicing elit. Hic, excepturi?</div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="card d-flex flex-row align-items-start">
+                                    <img src="dinner-3.jpg" class="card-img ">
+                                    <div class="card-content">
+                                        <div class="price d-flex justify-content-between">
+                                            <div class="card-title">Palak Paneer</div>
+                                            <div class="card-title-p">150$</div>
+                                        </div>
+                                        <div class="card-body">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet
+                                            consectetur adipisicing elit. Hic, excepturi?</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6 mt-5">
+                <div class="accordion text-center" id="main">
+
+                    <div class="accordion-item">
+                        <h2>Prices</h2>
+                        <p class="min">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="m-0">Spa Therapies</h5>
+                            <button class="btn  collapsed" data-bs-toggle="collapse" aria-expanded="true"
+                                data-bs-target="#new">
+                                <i class="bi bi-plus" onclick="change()" id="icon"></i>
+                            </button>
+
+                        </div>
+                        <div class="accordion-body accordion-collapse collapse" id="new" data-bs-parent="#main">
+                            <table class="table">
+                                <tbody>
+                                    <tr class="table-row">
+                                        <td class="table-data text-start">Face Treatments</td>
+                                        <td class="table-data text-center min">30 min</td>
+                                        <td class="table-data text-end  ps">30$</td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td class="table-data text-start">Nail Treatments</td>
+                                        <td class="table-data text-center min">30 min</td>
+                                        <td class="table-data text-end ps">30$</td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td class="table-data text-start">Hair Treatments</td>
+                                        <td class="table-data text-center min">30 min</td>
+                                        <td class="table-data text-end ps">30$</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="m-0">Spa Therapies</h5>
+                            <button class="btn  collapsed" data-bs-toggle="collapse" aria-expanded="true"
+                                data-bs-target="#new2">
+                                <i class="bi bi-plus" onclick="change1()" id="icon2"></i>
+                            </button>
+
+                        </div>
+                        <div class="accordion-body accordion-collapse collapse" id="new2">
+                            <table class="table">
+                                <tbody>
+                                    <tr class="table-row">
+                                        <td class="table-data text-start">Face Treatments</td>
+                                        <td class="table-data text-center min">30 min</td>
+                                        <td class="table-data text-end  ps">30$</td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td class="table-data text-start">Nail Treatments</td>
+                                        <td class="table-data text-center min">30 min</td>
+                                        <td class="table-data text-end ps">30$</td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td class="table-data text-start">Hair Treatments</td>
+                                        <td class="table-data text-center min">30 min</td>
+                                        <td class="table-data text-end ps">30$</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                    <div class="accordion-item">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="m-0">Spa Therapies</h5>
+                            <button class="btn  collapsed" data-bs-toggle="collapse" aria-expanded="true"
+                                data-bs-target="#new3">
+                                <i class="bi bi-plus" onclick="change2()" id="icon3"></i>
+                            </button>
+
+                        </div>
+                        <div class="accordion-body accordion-collapse collapse" id="new3">
+                            <table class="table">
+                                <tbody>
+                                    <tr class="table-row">
+                                        <td class="table-data text-start">Face Treatments</td>
+                                        <td class="table-data text-center min">30 min</td>
+                                        <td class="table-data text-end  ps">30$</td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td class="table-data text-start">Nail Treatments</td>
+                                        <td class="table-data text-center min">30 min</td>
+                                        <td class="table-data text-end ps">30$</td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td class="table-data text-start">Hair Treatments</td>
+                                        <td class="table-data text-center min">30 min</td>
+                                        <td class="table-data text-end ps">30$</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <!-- badge -->
+    <!-- <div class="container">
+    <div class="row">
+        <div class="col-md-7">
+            <div class="btn-group w-100">
+                <button class="btn btn-primary"><i class="bi bi-facebook"></i></button>
+                <button class="btn btn-primary">Chat</button>
+                <button class="btn btn-primary">Notification <span class="badge rounded-circle top-0  bg-danger ">3</span> </button>
+                <button class="btn btn-primary">Likes</button>
+                <button class="btn btn-primary">Followers</button>
+                <button class="btn btn-primary">Feed</button>
+            </div>
+           
+               <div class="">
+                <img  class="w-100" src="EYj8.gif">
+               </div>
+           
+        </div>
+        <div class="col-md-5">
+            <div class="header">
+                badges
+            </div>
+            <ul class="list-group ">
+            <li class="list-group-item"><i class="bi bi-house-door"></i>Home</li>
+            <li class="list-group-item"><i class="bi bi-bell"></i>Notification<span class="badge rounded-pill top-0  bg-danger ">3</span></li>
+            <li class="list-group-item"><i class="bi bi-heart"></i>Likes<span class="badge rounded-pill top-0  bg-success ">2</span></li>
+            <li class="list-group-item"><i class="bi bi-person"></i>Followers</li>
+            <li class="list-group-item"><i class="bi bi-rss"></i>Feed</li>
+            </ul>
+        </div>
+    </div>
+</div>
+ -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h4>accordion</h4>
+                            <img src="down.jpg" class="collapsed" data-bs-toggle="collapse" data-bs-target="#accor-3"
+                                id="btn" onclick="change4()">
+                        </div>
+                    </div>
+                    <div class="accordion-body bg accordian-collapse collapse" id="accor-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quisquam quas quis vitae, atque
+                        tempora ex ipsa maxime sapiente accusamus. Architecto ea modi voluptatum nisi harum. Iste
+                        aliquam sed eum reiciendis esse magnam, modi repellendus voluptate velit harum ab temporibus,
+                        rerum excepturi eligendi odio dignissimos eaque? Repellendus aliquid soluta numquam?
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <hr>
+    <div class="container mb-5">
+        <div class="row  d-flex justify-content-center">
+            <div class="col-md-7 acc-row d-flex justify-content-between text-center">
+                <div class="accordion  w-100">
+                    <div class="accordion-item accor-4 ">
+                        <div class="d-flex  align-items-center gap-5">
+                            <div class="time text-start">12:00 hr</div>
+                            <div class="d-flex flex-column text-start">
+                                <h1 class="acc4-h1">Accordion</h1>
+                                <h6 class="acc4-h6">Lorem ipsum dolor sit amet.</h6>
+                            </div>
+                        </div>
+
+                        <div class="accordion-body accordion-collapse collapse acc4-h6 text-start acc-content"
+                            id="accor-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nesciunt animi quae
+                            exercitationem, voluptas dolore ducimus expedita fugiat, incidunt recusandae distinctio
+                            nemo,
+                            iste cumque quaerat cum deleniti et doloremque impedit.
+                        </div>
+                    </div>
+                </div>
+                <button class=" btn-red collapsed  p-0 " data-bs-toggle="collapse" data-bs-target="#accor-4"><i
+                        class="bi bi-plus" onclick="change5()" id="btn-2"></i></button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row  ">
+            <div class="col-md-5 mb-5 d-flex ">
+               
+                <div class="accordion " id="acc-parent">
+                  
+                    <div class="accordion-item plate">
+                        <div class="d-flex">
+                            <img src="down.jpg" class="icon-down collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#plate-body" id="plate-1" onclick="change6()" >
+                        <h1 class="acc5-h1">accordion</h1>
+                        </div>
+                        <div class="accordion-body accordion-collapse collapse" id="plate-body" data-bs-parent="#acc-parent">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis numquam iusto possimus
+                            nostrum ut earum reprehenderit iste nesciunt id vero explicabo, provident doloribus ullam
+                            sint nemo maiores asperiores commodi error qui quae illum veritatis voluptatibus placeat
+                            vitae. Iure totam nam similique, dolorum porro, deserunt dignissimos eaque ipsam obcaecati
+                            mollitia dolores.
+                        </div>
+                    </div>
+                    <div class="accordion-item plate">
+                        <div class="d-flex">
+                            <img src="down.jpg" class="icon-down collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#plate-body-2" id="plate-2" onclick="change7()" aria-expanded="true">
+                        <h1 class="acc5-h1">accordion</h1>
+                        </div>
+                        <div class="accordion-body accordion-collapse collapse" id="plate-body-2" data-bs-parent="#acc-parent">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis numquam iusto possimus
+                            nostrum ut earum reprehenderit iste nesciunt id vero explicabo, provident doloribus ullam
+                            sint nemo maiores asperiores commodi error qui quae illum veritatis voluptatibus placeat
+                            vitae. Iure totam nam similique, dolorum porro, deserunt dignissimos eaque ipsam obcaecati
+                            mollitia dolores.
+                        </div>
+                    </div>
+                    <div class="accordion-item plate-last">
+                        <div class="d-flex">
+                            <img src="down.jpg" class="icon-down collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#plate-body-3" id="plate-3" onclick="change8()" aria-expanded="true">
+                        <h1 class="acc5-h1">accordion</h1>
+                        </div>
+                        <div class="accordion-body accordion-collapse collapse-show" id="plate-body-3" data-bs-parent="#acc-parent">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis numquam iusto possimus
+                            nostrum ut earum reprehenderit iste nesciunt id vero explicabo, provident doloribus ullam
+                            sint nemo maiores asperiores commodi error qui quae illum veritatis voluptatibus placeat
+                            vitae. Iure totam nam similique, dolorum porro, deserunt dignissimos eaque ipsam obcaecati
+                            mollitia dolores.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script>
+        function change() {
+            let icon = document.getElementById('icon');
+
+            if (document.getElementById("icon").className === "bi bi-plus") {
+
+                icon.classList.remove("bi-plus")
+                icon.classList.add("bi-dash");
+
+
+            } else {
+                icon.classList.remove("bi-dash");
+                icon.classList.add("bi-plus")
+
+
+            }
+
+
+
+
+        }
+        function change1() {
+            let icon = document.getElementById('icon2');
+
+            if (document.getElementById("icon2").className === "bi bi-plus") {
+
+                icon.classList.remove("bi-plus")
+                icon.classList.add("bi-dash");
+
+
+            } else {
+                icon.classList.remove("bi-dash");
+                icon.classList.add("bi-plus")
+
+
+            }
+
+
+
+
+        }
+        function change2() {
+            let icon = document.getElementById('icon3');
+
+            if (document.getElementById("icon3").className === "bi bi-plus") {
+
+                icon.classList.remove("bi-plus")
+                icon.classList.add("bi-dash");
+
+
+            } else {
+                icon.classList.remove("bi-dash");
+                icon.classList.add("bi-plus")
+
+
+            }
+
+
+
+
+        }
+        function change4() {
+            let icon = document.getElementById('btn');
+            if (document.getElementById("btn").className === "collapsed") {
+
+                icon.classList.add("up");
+            } else {
+                icon.classList.remove("up");
+            }
+        }
+        function change5() {
+            let btn = document.getElementById('btn-2');
+            if (document.getElementById("btn-2").className === "bi bi-plus") {
+
+                btn.classList.remove("bi-plus")
+                btn.classList.add("bi-dash");
+            } else {
+                btn.classList.remove("bi-dash");
+                btn.classList.add("bi-plus")
+            }
+        }
+        function change6() {
+            let icon = document.getElementById('plate-1');
+            if (document.getElementById("plate-1").className ==="collapsed") {
+
+                icon.classList.add("p-1");
+            } else {
+                icon.classList.remove("p-1");
+            }
+        }
+        
+    </script>
+</body>
+
+</html>

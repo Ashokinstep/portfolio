@@ -1,0 +1,14 @@
+.box{
+    background-color: aqua;
+    border-radius: 5px;
+    width: fit-content;
+    background-image:url("1-square-fill.svg");
+    
+    background-repeat: no-repeat;
+}
+::-webkit-file-upload-button{
+
+display: none;
+
+
+}

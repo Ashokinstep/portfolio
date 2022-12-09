@@ -1,0 +1,223 @@
+body{
+    background-color: rgb(220, 225, 230);
+}
+.form-h1{
+    font-size:24px;
+    font-weight: 600;
+
+}
+p{
+    font-size:16px;
+    font-weight: 600;
+}
+.bi-twitter{
+    margin-right: 8px;
+}
+.bi-facebook{
+    margin-right: 8px;
+}
+::placeholder{
+    font-weight: 600; 
+}
+.log{
+    text-decoration: none;
+}
+.opt{
+    font-weight: 600; 
+}
+.form2-row{
+    background-color: white;
+}
+.form2{
+    padding: 3.5rem;
+}
+.form1-control{
+    border:none;
+   border-bottom: 1px solid #f8a3b4 !important;
+   border-radius: 0px!important;
+   
+}
+.lb{
+    font-size:16px;
+    font-weight: 600;
+    color: rgb(134, 134, 134);
+}
+
+
+.form-img{
+    width: 100%;
+
+}
+.btn-submit{
+    background-color:#F6486B;
+    color:white;
+    width: 100%;
+}
+.pink{
+    background-color: #f5e7ea;
+}
+.row-3{
+    background-color: white;
+    padding: 9rem 0rem;
+}
+.text{
+    background-color: #e7e7e7;
+    border: none;
+    border-radius: 20px;
+   padding: 10px 0px;
+}
+.text1{
+    background-color: #e7e7e7;
+    border: none;
+    border-radius: 20px;
+   padding: 10px 20px;
+}
+.form3{
+    padding: 0rem 10.5rem;
+}
+.log-btn{
+    border: none;
+    background-color: #708cd5;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 20px;
+}
+/* collapse-form */
+
+.cf-1{
+    background-color: white;
+    box-shadow:7px 21px 37px 1px rgba(223, 192, 192, 0.25);
+    margin: 5rem 0rem 5rem 0rem;
+    padding: 3rem 3rem 3rem 9rem;
+
+}
+.b-g{
+
+background: linear-gradient(to right, #93F9B9, #1D976C); 
+
+}
+:focus{
+  }
+
+.bg-icon{
+    background-color: #1D976C; 
+    width: 10%;
+    padding: 2.5rem 2.5rem;
+    gap: 4rem;
+    margin-left: 10rem;
+    transform: translateX(6.8rem);
+    justify-content: center;
+    color: white;
+  
+}
+.form-control-cf{
+    border: none !important;
+    border-bottom: #1D976C solid 1px !important;
+    border-radius: 0px !important;
+}
+.form-select-cf{
+    border: none !important;
+    border-bottom: #1D976C solid 1px !important;
+    border-radius: 0px !important;
+}
+.form-control-plaintext {
+    display: block;
+    width: 100%;
+    padding: 0rem 0rem;
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: #5f666d;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: transparent;
+}
+    
+.form-select-cf-2 {
+    border: none !important;
+    border-radius: 0px !important;
+}
+.form-control-cf-btn{
+    border: none !important;
+    
+    border-radius: 0px !important;
+}
+.btn-cf{
+    background-color: #a9e6d069;
+    color: #1D976C;
+    border-radius: 0px !important;
+    margin-bottom: 8px;
+    font-size: 12px;
+    padding: 6px 14px;
+    font-weight: 600;
+    width: 50%;
+}
+.btn-cf-py{
+    background-color: #a9e6d069;
+    color: #1D976C;
+    border-radius: 0px !important;
+    margin-bottom: 8px;
+    font-size: 12px;
+    padding: 6px 14px;
+    
+ } 
+ .btn-next:hover{
+    background-color: #1D976C !important;
+    color: #ffffff !important;
+ }
+.btn-next{
+    background-color: #1D976C;
+    color: #ffffff;
+    border-radius: 0px !important;
+    margin-bottom: 8px;
+    font-size: 12px;
+    padding: 5px 20px;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+}
+.btn-now{
+    background-color:#a9e6d069 ;
+    color: #1D976C;
+    border-radius: 0px !important;
+    margin-bottom: 8px;
+    font-size: 12px;
+    padding: 5px 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.button{
+    border-bottom: #1D976C solid 1px !important;
+    
+}
+.form-label-cf{
+    color: #7d8381;
+    font-size: 12px !important;
+    font-weight: 500;
+    text-transform: uppercase !important;
+}
+.heading-cf{
+    color: #1D976C; 
+    font-size: 24px;
+    font-weight: 600;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    width: 20px;
+    height: 20px;
+    background: url("./date.png") no-repeat;
+    
+}
+.tag{
+    width: 50px;
+    margin-left: 4rem;
+}
+#check:checked{
+    background-color: #F6486B;
+   
+}
+#check{
+    border: #F6486B solid  1px !important ;
+}
+ #check:focus{
+ color: transparent0;
+}

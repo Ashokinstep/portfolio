@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+.h1{
+    background-color: blueviolet;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 40px 10px;
+    text-align: center;
+}
+.accordion-item{
+    border: none;
+    box-shadow:2px 5px 15px 6px #f0f0f0;
+    padding:8px 8px;
+    border-radius: 0% !important;
+}
+.ac-btn{
+    border: none;
+    background: transparent;
+}
+#ac-h1,#ac-h12,#ac-h13{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+*{font-family: 'Poppins', sans-serif;}
+.accordion-body{
+    border: none;
+    border-radius: 0% !important;
+}
+.card{
+    border-radius:0% !important;
+    border:none;
+}
+.card-img{
+    border-radius: 50%;
+   width: 20%;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.card-title-p{
+    font-size: 24px;
+    font-weight: 600;
+    color: blueviolet;
+
+}
+.card-body{
+    padding: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(138, 138, 138);
+}
+.card-content{
+    padding: 5px 20px;
+}
+.btn{
+    border-radius:0% !important;
+}
+
+
+.accordion-item{
+    padding: 10px 20px;
+}
+.ps{
+    color: rgba(15, 223, 126, 0.767);
+    font-weight: 400;
+}
+.min{
+    color: #919191;
+}
+.up{
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+.p-1{
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+.bg{
+    background-color: rgb(249, 239, 252);
+    color: #919191;
+}
+.accor-4{
+    background-color: transparent;
+    box-shadow: none;
+}
+.acc-row{
+    background-color: rgb(170, 26, 26);
+}
+.btn-red{
+    background-color: rgba(241, 241, 241, 0.274) ;
+    color: #fff;
+    width: 100px;
+    border: none;
+}
+.btn-red :hover{
+    background-color: rgba(241, 241, 241, 0.274) !important;
+    color: #fff;
+    width: 100px;
+    border: none;
+}
+.time{
+    color: #fff;
+    font-size: 15px;
+}
+.acc4-h1{
+    color: #fff;
+    font-size: 18px;
+}
+.acc5-h1{
+    font-size: 18px;
+    color: black;
+}
+.acc4-h6{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+.acc-content{
+    padding-left: 6.2rem;
+    border-top: #fff solid 2px;
+}
+.plate{
+   
+    border-left:  dashed 4px rgba(149, 76, 219, 0.3);
+    box-shadow: none;
+    background-color: transparent;
+}
+.plate-last{
+    box-shadow: none;
+    background-color: transparent;
+}
+.icon-down{
+   transform:  translate(-3.5rem, -0.7rem);
+}
