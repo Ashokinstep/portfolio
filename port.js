@@ -3,6 +3,25 @@ const  drop =() => {
     cc1.classList.remove('collapse')
     cc1.classList.add('collapse-show')
 }
+const  bar =() => {
+    let cc1 = document.getElementById("bar");
+    cc1.classList.remove('d-none')
+   let cc2 = document.getElementById('bar-icon');
+   cc2.classList.add('menu-d-none');
+   cc2.classList.remove('bar-d-none')
+   let cc3 = document.getElementById('x-icon');
+   cc3.classList.add('bar-d-none')
+}
+const closex =() => {
+    let cc1 = document.getElementById("bar");
+    cc1.classList.add('d-none')
+    let cc2 = document.getElementById('x-icon');
+    cc2.classList.remove('bar-d-none');
+    let cc3 = document.getElementById('bar-icon');
+    cc3.classList.add('bar-d-none');
+    cc3.classList.remove('menu-d-none')
+  
+}
 const  dropoff =() => {
     let cc1 = document.getElementById("drop");
     cc1.classList.remove('collapse-show')
