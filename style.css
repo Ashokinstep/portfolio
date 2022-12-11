@@ -97,15 +97,15 @@ b {
 }
 
 .bi-list {
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 2.5rem;
+    color: #4C4B4B;
 
 
 }
 
 .bi-x-lg {
-    font-size: 1.8rem;
-    font-weight: 600;
+    font-size: 2rem;
+    color: #4C4B4B;
 
 }
 
@@ -250,6 +250,7 @@ b {
     transition: all 0.5s ease-in-out !important;
     margin-bottom: 1.25rem;
     border-radius: 12px;
+    box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.9);
 }
 
 .imghover:hover {
@@ -389,14 +390,14 @@ b {
 .ashok {
     font-weight: 500;
     font-size: 3.75rem;
-    color: white;
-    background-color: #8E99E2;
+    color: #8E99E2;
+    
     line-height: 5.62rem;
 
 }
 
 .singal {
-    font-weight: 500;
+    font-weight: 200;
     font-size: 3.75rem;
     color: #8E99E2;
     line-height: 0.31rem;
@@ -569,9 +570,10 @@ hr {
     height: 23.75rem;
 
     margin-bottom: 1.87rem;
-    border-radius: 7px;
+    border-radius: 12px;
     transition: all 0.5s ease-in-out;
-    border: solid 5px rgb(216, 211, 211) !important;
+   
+    box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.9);
 }
 
 .port-card-pot {
@@ -809,7 +811,9 @@ a {
     .award {
         background: none;
     }
-
+    .contactbg {
+        background: none;
+    }
 
 }
 
@@ -848,6 +852,10 @@ a {
         width: 100%;
     }
 
+    .port-card:hover {
+        transform: scale(1);
+        z-index: 90;
+    }
     .navbar {
         padding: 1rem 2rem;
         border-radius: 0.3125rem;

@@ -18,16 +18,31 @@
             <div class="row">
                 <div class="navbar d-flex">
                     <img class="logo" src="./images/logoit.png" onmouseover="dropoff()">
-                    <ul class="nav">
+                    <ul class="nav menu-d-none">
                         <li><a href="./index.html" class="nav-link" onmouseover="dropoff()">Home</a></li>
-                        <li><a href="#about" class="nav-link" onmouseover="dropoff()">About</a></li>
+                        <!-- <li><a href="#about" class="nav-link" onmouseover="dropoff()">About</a></li> -->
                         <li><a class="nav-link " href="./portfolio.html" onmouseover="drop()">Portfolio</a></li>
                         <li><a href="" class="nav-link" onmouseover="dropoff()">Pricing</a></li>
                     </ul>
-                    <a href="./contact.html" class=" contacta" onmouseover="dropoff()">Contact</a>
+                    <a href="./contact.html" class=" contacta" onmouseover="dropoff()" id="contact">Contact</a>
+                    <i class="bi bi-list bar-d-none d-none" id="bar-icon" onclick="bar()"></i>
+                    <i class="bi bi-x-lg  d-none" id="x-icon" onclick="closex()"></i>
                 </div>
             </div>
         </div>
+        <!-- bar -->
+        <div class="navbar d-flex flex-column d-none tri" id="bar">
+
+            <ul class="nav d-flex flex-column ">
+                <li><a href="./index.html" class="nav-link" onmouseover="dropoff()">Home</a></li>
+                
+                <li><a class="nav-link " href="./portfolio.html">Portfolio</a></li>
+                <li><a href="" class="nav-link" onmouseover="dropoff()">Pricing</a></li>
+                <li><a href="./contact.html" class=" nav-link" onmouseover="dropoff()" id="contact">Contact</a></li>
+            </ul>
+
+        </div>
+
         <div class="container">
             <div class="row justify-content-between  dropmenu collapse gap-3" id="drop">
 
@@ -85,27 +100,27 @@
         </div>
 
         <div class="container p-0 port-card-container">
-            <div class="row ">
+            <div class="row p2-2">
                 <div class="col-md-8 ">
 
                     <div class="row">
                         <div class="col-md-6"><img src="./advt/post1.png" class="  img-fluid imghover" alt="..."
-                                style="border:solid 1px rgb(72, 70, 70)"></div>
+                                ></div>
                         <div class="col-md-6"><img src="./advt/post2.jpg" class="img-fluid imghover" alt="..."
-                                style="border:solid 1px rgb(72, 70, 70)"></div>
+                                ></div>
                         <div class="col-md-6"> <img src="./advt/post4.jpg" class="img-fluid imghover" alt="..."
-                                style="border:solid 1px rgb(72, 70, 70)"></div>
+                                ></div>
                         <div class="col-md-6"> <img src="./advt/post5.jpg" class="img-fluid imghover" alt="..."
-                                style="border:solid 1px rgb(72, 70, 70)"></div>
+                                ></div>
                     </div>
 
                 </div>
 
                 <div class="col-md-4 ">
                     <img src="./advt/post3.jpg" class="img-fluid imghover" alt="..."
-                        style="border:solid 1px rgb(72, 70, 70)">
+                        >
                     <img src="./advt/post6.jpg" class="img-fluid imghover" alt="..."
-                        style="border:solid 1px rgb(72, 70, 70)">
+                        >
                 </div>
 
 
@@ -113,7 +128,7 @@
             </div>
         </div>
         <div class="container p-0">
-            <div class="row">
+            <div class="row p2">
                 <div class="submit">
                     <h1 class="Hire">HIRE ME!</h1>
                     <h6 class="hire-p">It is a long established fact that a reader will be distracted by the readable
@@ -133,10 +148,10 @@
         <div class="container-fluid p-1">
 
             <div class="row ">
-                <div class="col-md-12  p-0 d-flex justify-content-between align-items-center">
+                <div class="col-md-12 footer  p-0 d-flex justify-content-between align-items-center">
                     <img class="logo2" src="./images/logoit2.png">
-                    <p class="copyright">All copyrights is reserved @ashoksingalportfolio</p>
-                    <div class=" d-flex gap-3 ">
+
+                    <div class=" d-flex iconmenu">
                         <div class="im"><a href="https://www.instagram.com/individual_taran/"><img class="icon"
                                     src="./images/insta.svg"></a></div>
                         <div class="im"><a href="https://www.facebook.com/ashok.singhal.5667901/"> <img class="icon"
@@ -147,25 +162,27 @@
                         <div class="im"><a
                                 href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCHrdkfVkNpNXZnbcbhLWPgzfnrgRxMXgDvzlxhSdBNFhzKnQRjNBXfmrCGgBbtqxkgZcbkg"><img
                                     class="icon" src="./images/mail.svg"></a></div>
-                    </div>.
+                    </div>
                 </div>
+                <copy class="copyright d-none">All copyrights is reserved @ashoksingalportfolio</copy>
             </div>
+
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js">
 
         </script>
-        <script>
+        <!-- <script>
             $(window).load(function () {
                 $('#loading').hide();
             });
-        </script>
+        </script> -->
 
         <script src="js/jquery.ripples.js"></script>
-        <div id="loading">
+        <!-- <div id="loading">
             <img id="loading-image" src="./images/loadmini.gif" alt="Loading..." />
             <span class="please">Please wait...</span>
-        </div>
+        </div> -->
     </body>
 
 </html>
