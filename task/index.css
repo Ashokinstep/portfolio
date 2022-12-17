@@ -7,6 +7,7 @@
 }
 
 
+
 .modal-dialog {
     top: 12%;
 }
@@ -32,6 +33,7 @@
 .car-img {
     width: 5rem !important;
 }
+
 .dli {
     list-style: none;
     color: #3e3e3e78 !important;
@@ -57,7 +59,7 @@
 }
 
 .logo {
-    width: 6.5rem;
+    width: 8rem;
 }
 
 .bi-search {
@@ -77,7 +79,8 @@
     font-size: 3rem;
     color: #F26F15;
 }
-.fp-link::after{
+
+.fp-link::after {
     content: '';
     display: block;
     width: 0;
@@ -86,10 +89,12 @@
     transition: width .3s ease-in-out;
 
 }
-.fp-link:hover::after{
+
+.fp-link:hover::after {
     width: 100%;
     transition: width .3s ease-in-out;
 }
+
 .nav-link::after {
     content: '';
     display: block;
@@ -115,14 +120,27 @@
     transition: width .3s ease-in-out;
 
 }
+.search[type="search"]{
+    color: #3E3E3E !important;
+    
+}
 
+
+.search{
+ width: 12rem;
+height: 2.3rem;
+padding: 1rem;
+transition: all 1s ease-in-out;
+border: 1px solid #91AAB9;
+border-radius: 1.125rem;
+}
 /* .nav-link:hover{
     border-bottom:solid 2px #F26F15 ;
     color: #F26F15 !important;
     transition: color 0.5s ease-in-out;
 } */
 .nav-link {
-    font-weight: 600 !important;
+    font-weight: 500 !important;
     font-size: 1.5rem !important;
     font-family: 'Teko', sans-serif;
     letter-spacing: 0.05rem;
@@ -142,8 +160,10 @@
 }
 
 .phimg {
-   width: 100%;
-
+    height: 48.75rem;
+    width: 55.25rem;
+    position: absolute;
+right: 0px !important;
     margin-right: 0px;
 
 }
@@ -189,51 +209,26 @@
     color: rgba(242, 119, 34, 1);
 
 }
-.accor{
+
+.accor {
     background-color: #F26F15 !important;
 }
-a{
+
+a {
     text-decoration: none !important;
 }
+
 .cards {
     width: fit-content;
     padding: 1.2rem 2rem !important;
     margin: auto;
 }
-.form{
-    margin-top: 15rem !important;
-   
-}
-.form-control{
-    background-color: #3E3E3E !important;
-    border: rgb(242, 119, 34) solid 2px !important;
-}
-.form-logo{
-    width: 12rem !important;
-    display: block;
-    margin: auto;
-    margin-bottom: 2rem;
-}
-input::-ms-value{
-    color: rgb(242, 119, 34) !important;
-}
-input::placeholder{
-    color: rgb(242, 119, 34) !important;
-}
-::placeholder{
-    color: rgb(242, 119, 34) !important;
-}
-.btn-primary{
-   color: #3E3E3E !important;
-   background-color: rgb(242, 119, 34) !important;
-    border: rgb(242, 119, 34) solid 2px !important;
-    font-weight: 500 !important;
-}
-.form-body{
-   background-color:#3E3E3E;
-}
+
+
+
+
 .btn-get {
-    
+
     width: 15.0625rem;
     height: 4.4375rem;
 
@@ -244,42 +239,44 @@ input::placeholder{
     border-radius: 0.625rem;
     border: none;
     position: relative;
-   
+
     margin-bottom: 2rem;
     box-shadow: 0 0 0 0 rgba(242, 119, 34, 1);
 
-    animation: pulse-red  1.5s infinite;
+    animation: pulse-red 1.5s infinite;
 }
 
-  
-  @keyframes pulse-red {
+
+@keyframes pulse-red {
     0% {
-     
-      box-shadow: 0 0 0 0 rgba(242, 119, 34, 0.7);
+
+        box-shadow: 0 0 0 0 rgba(242, 119, 34, 0.7);
 
     }
-    
+
     70% {
-    
-      box-shadow: 0 0 0 15px rgba(255, 82, 82, 0);
+
+        box-shadow: 0 0 0 15px rgba(255, 82, 82, 0);
     }
-    
+
     100% {
-    
-      box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+
+        box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
     }
-  }
+}
+
 .btn-link {
     position: relative;
-   
+
     font-weight: 500;
     font-size: 1.25rem;
     text-decoration: none !important;
     border: none;
     color: #fff;
 }
-.btn-link:hover{
-    color: #ffffff !important; 
+
+.btn-link:hover {
+    color: #ffffff !important;
 }
 
 
@@ -305,7 +302,7 @@ input::placeholder{
 }
 
 .row2 {
-    padding-top: 4.75rem;
+    padding-top: 7.2rem !important;
 }
 
 .ro1 {
@@ -325,7 +322,7 @@ input::placeholder{
 }
 
 .you1 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 2.875rem;
     line-height: 3.75rem;
     /* or 130% */
@@ -347,7 +344,7 @@ input::placeholder{
 }
 
 .we {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 2.875rem;
     line-height: 3.75rem;
     /* or 130% */
@@ -381,7 +378,7 @@ input::placeholder{
 }
 
 .heading4 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 2.25rem;
     line-height: 3.75rem;
     /* identical to box height, or 167% */
@@ -413,14 +410,17 @@ input::placeholder{
 }
 
 .cards {
-  
+
     background: #FFFFFF;
     border: 1px solid #F26F15;
     border-radius: 1.25rem;
     padding: 1.2rem;
-   
+
 }
 
+/* .form-body{
+    background-color: #FFFFFF;
+} */
 .row3 {
     position: relative;
     padding-top: 17rem;
@@ -437,14 +437,14 @@ input::placeholder{
 }
 
 .orange h2 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 3.5rem;
     line-height: 3.75rem;
     color: #FFFFFF;
 }
 
 .orange p {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.875rem;
     line-height: 3.75rem;
     /* identical to box height, or 200% */
@@ -457,9 +457,9 @@ input::placeholder{
     border: 2px solid #FFFFFF;
     border-radius: 4.375rem;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.2rem !important;
     color: #FFFFFF;
-    padding: 1.4rem 4rem;
+    padding: 1rem 1rem;
     background-color: transparent;
     width: 80%;
 }
@@ -478,7 +478,7 @@ input::placeholder{
 }
 
 .c-body h4 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 2.25rem;
     line-height: 3.75rem;
     /* identical to box height, or 167% */
@@ -505,7 +505,7 @@ input::placeholder{
 }
 
 .mobile {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 2.875rem;
     line-height: 3.75rem;
     /* identical to box height, or 130% */
@@ -546,6 +546,7 @@ input::placeholder{
 
     color: #ffffff78;
 }
+
 .fp-link {
     font-weight: 400;
     font-size: 1.2rem;
@@ -602,7 +603,85 @@ hr {
     padding-bottom: 25rem;
 }
 
+.form-col {
+    margin-top: 5rem !important;
+    margin-bottom: 12rem !important;
+}
+.form-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    width: 12rem;
 
+}
+input[name]{
+    color: #F26F15 !important;
+    font-size: 1rem;
+}
+input[email]{
+    color: #F26F15 !important;
+    font-size: 1rem;
+}
+input[message]{
+    color: #F26F15 !important;
+    font-size: 1rem;
+}
+.form-card {
+    background: #FFFFFF;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 2.0625rem !important;
+    padding: 3.0625rem;
+}
+.form-header{
+    font-weight: 600;
+font-size: 1.625rem;
+line-height: 3.75rem;
+font-family: 'Teko', sans-serif;
+
+
+color: #3E3E3E;
+}
+.forminput {
+   
+    height: 3.4375rem;
+    background: #ffffff;
+    border: 1px solid #BFBFBF;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+::placeholder{
+    color: #BFBFBF;
+    text-align: start;
+    font-size: 1rem;
+}
+.formtextinput {
+   
+    height: 5.125rem;
+    background: #ffffff;
+    border: 1px solid #BFBFBF;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.formlabel{
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: #373A40;
+    
+}
+.formbtn{
+    height: 3.4375rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F26F15;
+    border: 1px solid #F27017;
+    border-radius: 8px;
+}
 @media screen and (min-width:1360px) and (max-width:2520px) {
     .toggle-btn {
         display: none;
@@ -613,11 +692,11 @@ hr {
     .toggle-btn {
         display: none;
     }
-    * {
-        font-size: 0.8rem;
-    }
+
+   
 
 }
+
 @media screen and (min-width:1401px) and (max-width:1700px) {
     * {
         font-size: 0.8rem;
@@ -626,7 +705,9 @@ hr {
 }
 
 @media screen and (min-width:1200px) and (max-width:1400px) {
-
+    .content {
+        padding-top: 13rem !important;
+    }
 
     * {
         font-size: 0.8rem;
@@ -648,12 +729,7 @@ hr {
         width: 25rem;
     }
 
-    .cards {
-      
-       
-        
-
-    }
+    .cards {}
 
     .car-img {
         width: 4rem !important;
@@ -674,6 +750,7 @@ hr {
     .toggle-btn {
         display: none;
     }
+
     .ph1 {
         width: 25rem;
     }
@@ -685,26 +762,30 @@ hr {
     .ph3 {
         width: 25rem;
     }
-   
+
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
-    .car-col{
+    .car-col {
         padding: 0rem 5rem !important;
     }
+
     .cards p {
         font-weight: 500;
         font-size: 1.2rem;
         color: #3E3E3E;
     }
-    .car-img{
-        width:3.125rem;
+
+    .car-img {
+        width: 3.125rem;
     }
+
     .logimg {
         width: 20rem !important;
         display: block;
         margin: auto;
     }
+
     * {
         font-size: 0.70rem;
     }
@@ -752,10 +833,12 @@ hr {
 }
 
 @media screen and (min-width:300px) and (max-width:767px) {
-    
-    .car-col{
+
+    .car-col {
         padding: 0rem 2rem !important;
-    }.navbar {
+    }
+
+    .navbar {
         padding: 1.2rem 1.2rem !important;
 
     }
@@ -769,9 +852,6 @@ hr {
 
     }
 
-    .content {
-        padding-top: 2rem !important;
-    }
 
     .dis-none {
         display: none;
@@ -785,7 +865,7 @@ hr {
         width: 100% !important;
         text-align: center;
         justify-content: center !important;
-        padding-top: 8rem !important;
+        padding-top: 10rem !important;
         padding-left: 1.5rem !important;
         padding-right: 1.5rem !important;
     }
@@ -836,13 +916,15 @@ hr {
         display: none;
     }
 
-    
+
     .card-img {
         width: 4.5rem !important;
     }
-    .cards{
+
+    .cards {
         width: fit-content;
     }
+
     .cards p {
         font-size: 1.5rem !important;
     }
@@ -879,7 +961,7 @@ hr {
     }
 
     .row2 {
-        padding-top: 2rem !important;
+        padding-top: 4rem !important;
         padding-bottom: 2rem !important;
         padding-left: 1.5rem !important;
         padding-right: 1.5rem !important;
@@ -889,7 +971,7 @@ hr {
     .row3 {
         padding-top: 10rem !important;
         padding-bottom: 2rem !important;
-         justify-content: center !important;
+        justify-content: center !important;
         text-align: center;
         display: flex !important;
     }
